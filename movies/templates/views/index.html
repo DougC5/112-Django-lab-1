@@ -1,0 +1,9 @@
+<h1>Hello I am HTML</h1>
+
+{% comment %} 
+{%%} are for logic / {{ }} to render values  
+{% endcomment %}
+
+{% for movie in catalog %}
+    {{movie.title}}
+{% endfor %}
